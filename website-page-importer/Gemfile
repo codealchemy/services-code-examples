@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'nationbuilder-rb'
+gem 'nationbuilder-rb', git: 'https://github.com/dstockdale/nationbuilder-rb.git'
 gem 'nokogiri'
 gem 'pry'
 gem 'image_downloader'
