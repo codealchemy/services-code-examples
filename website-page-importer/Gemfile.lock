@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/dstockdale/nationbuilder-rb.git
+  revision: 2edb165196e3796d277279e3434cfe22c9a8e1a4
+  specs:
+    nationbuilder-rb (0.3.0)
+      httpclient (~> 2.4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -14,12 +21,10 @@ GEM
       nokogiri (>= 1.4.4)
     json (1.8.1)
     method_source (0.8.2)
-    mini_portile (0.6.0)
+    mini_portile2 (2.4.0)
     minitest (5.4.2)
-    nationbuilder-rb (0.4.1)
-      httpclient (~> 2.4.0)
-    nokogiri (1.6.3.1)
-      mini_portile (= 0.6.0)
+    nokogiri (1.10.10)
+      mini_portile2 (~> 2.4.0)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -35,6 +40,6 @@ PLATFORMS
 DEPENDENCIES
   activesupport
   image_downloader
-  nationbuilder-rb
+  nationbuilder-rb!
   nokogiri
   pry
